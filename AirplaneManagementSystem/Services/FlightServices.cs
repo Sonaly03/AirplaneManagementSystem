@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using AirplaneManagementSystem.Models;
 using System.Text.Json;
-using System.Linq;
 
 namespace AirplaneManagementSystem.Services
 {
@@ -97,7 +96,7 @@ namespace AirplaneManagementSystem.Services
             {
                 foreach (var orderList in flight.Orders)
                 {
-                    Console.WriteLine($"Order: {orderList.Key},DesitnationOrder: {orderList.Value.Destination}, flightNumber: {flight.FlightNumber}, departure: {flight.DepartureCity}, arrival: {flight.ArrivalCity}, day: {flight.Day}");
+                    Console.WriteLine($"Order: {orderList.Key}, flightNumber: {flight.FlightNumber}, departure: {flight.DepartureCity}, arrival: {flight.ArrivalCity}, day: {flight.Day}");
                   
                 }
             }
