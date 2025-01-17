@@ -1,0 +1,42 @@
+{
+    "flights": [
+        {
+            "flightNumber": 1,
+            "departureCity": "YUL",
+            "arrivalCity": "YYZ",
+            "capacity": 20
+
+
+        },
+        {
+            "flightNumber": 2,
+            "departureCity": "YUL",
+            "arrivalCity": "YYC",
+            "capacity": 20
+        },
+        {
+            "flightNumber": 3,
+            "departureCity": "YUL",
+            "arrivalCity": "YVR",
+            "capacity": 20
+        },
+        {
+            "flightNumber": 4,
+            "departureCity": "YUL",
+            "arrivalCity": "YYZ",
+            "capacity": 20
+        },
+        {
+            "flightNumber": 5,
+            "departureCity": "YUL",
+            "arrivalCity": "YYC",
+            "capacity": 20
+        },
+        {
+            "flightNumber": 6,
+            "departureCity": "YUL",
+            "arrivalCity": "YVR",
+            "capacity": 20
+        }
+    ]
+}
